@@ -1,8 +1,8 @@
-var React, {Component} = require("react");
+var React = require("react");
 var connect = require("react-redux").connect;
 var actions = require("./actions.js");
 
-class PhoneForm extends Component {
+class PhoneForm extends React.Component {
 	constructor(props) {
 		super(props);
 	}
@@ -25,7 +25,7 @@ class PhoneForm extends Component {
 	}
 }
 
-class PhoneItem extends Component {
+class PhoneItem extends React.Component {
 	constructor(props) {
 		super(props);
 	}
@@ -42,7 +42,7 @@ class PhoneItem extends Component {
 	}	
 }
 
-class PhoneList extends Component {
+class PhoneList extends React.Component {
 	constructor(props) {
 		super(props);
 	}
@@ -58,7 +58,7 @@ class PhoneList extends Component {
 	}	
 }
 
-class AppView extends Component {
+class AppView extends React.Component {
 	render() {
 		return (
 			<div>
